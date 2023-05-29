@@ -11,6 +11,7 @@ inside that file right click and click on git bash here
  4.git commit -m "message"
  5.git branch _M main 
  6.git push -u origin main 
+ this all comments are done initial time or first time of project
 
 
  git status is use to check how many files have been changed
