@@ -1,0 +1,16 @@
+first go to github and sign in 
+click on add
+give the project className
+
+go to yor project folder which is created in desktop once after clicking on your project again click on the project name given 
+inside that file right click and click on git bash here 
+ first commennt
+ 1.git init 
+ 2.git remote add origin "url"
+ 3.git add .
+ 4.git commit -m "message"
+ 5.git branch _M main 
+ 6.git push -u origin main 
+
+
+ git status is use to check how many files have been changed
