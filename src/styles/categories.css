@@ -1,0 +1,17 @@
+.categories ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    /* this is used to remove the bullets */
+    
+}
+.categories li{
+    background-color: rgb(236, 231, 231);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.categories a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
