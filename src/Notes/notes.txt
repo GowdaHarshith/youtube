@@ -41,3 +41,87 @@ This  comment to which you need to type in terminal  so that the data to connect
         <Route element={} path="" />
       </Routes>
   </BrowserRouter>
+
+  sir notes:>
+  16/06/2023
+
+
+
+UseEffect:>
+use effect is a hook used to perform some side effect on components like fetching data from servers or
+updating the dom elements;
+
+  Syntax:>
+    useEffect(()=>{
+
+    },dependency)
+
+useEffect will execute the callBack function based on the dependency given
+Dependency             -                            []      [state]
+---------------------------------------------------------------------------------
+Initial render        yes it will work              yes        yes
+State render               yes                       No         yes(it works only for particular element)
+
+
+Routers:>
+ are used to perform navigation between multiple pages by defining the number of pages and also defining 
+individal path or route for individal page.
+Routers must be installed in our react app by=> npm i react-router-dom
+After intsall you need to import{BrowserRouter,Routes,Route}
+next we need to use this 
+
+<BrowserRouter>
+//common components
+<Routes>
+   <Route element={<component/>} path=""/>
+   '
+   '
+   'you can write n number of route
+</Routes>
+</BrowserRouter>
+
+UseRef:>
+
+UseRef is use to store mutable values and also use to refer dom elements directly.
+
+let x =useRef(null)
+  console.log(x)-------------------->x:{
+                                          current:h1(element)
+                                        }
+                                        x.current=><h1>[]</h1>
+                                x.current.textContent=> content
+<h1 ref={x}></h1>
+
+
+useNavigate:>
+it is hook from react outer dom use to navigate between pages programatically.
+let navigate = useNavigate()
+ navigate(path)=>('/')
+
+
+fetch():>
+
+fetch(URL,{
+  method:'GET'/'Post'/'Delete'
+})
+if your writing post you need specify certain things below that line.
+   headers:{'Content-Type':'application/json'},
+    body:JSON.stringify(data)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
