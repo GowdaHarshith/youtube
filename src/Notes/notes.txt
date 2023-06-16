@@ -1,0 +1,43 @@
+09/06/2023-friday
+
+database.json
+
+In javascript object 
+{
+    key:value
+}
+
+In Json
+{
+    "key":value
+}
+
+
+This  comment to which you need to type in terminal  so that the data to connect to server
+ npx json-server --watch src/data/database.json --port 2000
+                        ( path of the database)        |
+                                                     any number except 3000 because it the local server port number
+                                                     of your project
+
+
+ http://localhost:4000/videos
+  http://localhost:4000/shorts
+  this two are the comment which you will get in terminal after saving 
+  this two will give the information required for frontend throught fetch
+
+
+  To get a nextpages Like
+  localhost:3000/  => it will give you home page
+  localhost:3000/add-video =>it will give you another page
+  This you need to run in new terminal
+  npm i react-router-dom
+
+  syntax:
+
+  <BrowserRouter>
+    //common components
+      <Routes>
+        <Route element={} path="" />     --->route defines the path
+        <Route element={} path="" />
+      </Routes>
+  </BrowserRouter>

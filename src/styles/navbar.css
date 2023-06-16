@@ -34,5 +34,10 @@
     font-size: 18px;
     border-radius:100%;
  }
+ .userOptions a{
+    text-decoration: none;
+    color: black;
+
+ }
  
 
